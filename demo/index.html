@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+	<script src="//localhost:9022"></script>
+	<script src="../dist/sample-module.min.js"></script>
+	<div class='todo-list' />
+	<script>
+		var todoList = new TodoList(document.querySelector('.todo-list'), [{
+			text: "wake up",
+			id: 0
+		}, {
+			text: "make tea",
+			id: 1
+		}, {
+			text: "go to work",
+			id: 2
+		}]);
+	</script>
+</body>
+</html>
